@@ -81,7 +81,6 @@ Automatic HTML + plain-text fallback
 
 /content/*
 
-/content/{id}/send-now — manual trigger
 
 Fully typed Pydantic schemas
 
