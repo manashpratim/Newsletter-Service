@@ -141,7 +141,7 @@ def start_scheduler():
     scheduler.add_job(
         load_and_schedule_pending,
         "interval",
-        minutes=2,
+        minutes=10,
         id="refresh_pending_contents",
         replace_existing=True,
     )
